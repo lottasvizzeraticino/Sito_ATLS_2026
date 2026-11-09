@@ -1,0 +1,5 @@
+work/
+output/
+*.tar.gz
+*.zip
+node_modules/
