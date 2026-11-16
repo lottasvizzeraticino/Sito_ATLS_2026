@@ -2,9 +2,9 @@
 const config=window.ATLS_CONFIG||{};
 const isGerman=document.documentElement.lang.toLowerCase().startsWith('de');
 const words=isGerman?{
- serverSubmit:'Anfrage senden ↗',serverNote:'Die Anfrage wird an die ATLS gesendet. Du erhältst eine Antwort über die angegebenen Kontaktdaten.',
- membershipSubject:'ATLS — Beitrittsanfrage',eventSubject:'ATLS — Anlassanfrage: ',failed:'Senden nicht möglich',
- sent:'Die Anfrage wurde dem E-Mail-Dienst übergeben. Vielen Dank! Die ATLS antwortet dir über die angegebenen Kontaktdaten.',
+ serverSubmit:'Anfrage senden ↗',serverNote:'Die Anfrage wird an den TKSV gesendet. Du erhältst eine Antwort über die angegebenen Kontaktdaten.',
+ membershipSubject:'TKSV — Beitrittsanfrage',eventSubject:'TKSV — Anlassanfrage: ',failed:'Senden nicht möglich',
+ sent:'Die Anfrage wurde dem E-Mail-Dienst übergeben. Vielen Dank! Der TKSV antwortet dir über die angegebenen Kontaktdaten.',
  fallback:'Die Anfrage konnte nicht gesendet werden. Deine Angaben stehen weiterhin im Formular. Du kannst sie über dein E-Mail-Programm senden.',
  open:'Vorbereitete E-Mail öffnen ↗',ready:'Deine Anfrage ist bereit. Öffne die vorbereitete E-Mail, prüfe die Angaben und sende sie in deinem E-Mail-Programm. Das Formular hat noch nichts versendet.',
  copy:'Text kopieren',copied:'Text kopiert',select:'Text unten markieren',to:'An',subject:'Betreff',empty:'—'
