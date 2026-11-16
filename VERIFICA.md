@@ -1,4 +1,4 @@
-# Verifica · 9 novembre 2026
+# Verifica · 16 novembre 2026
 
 - Anteprima locale HTTP: 200.
 - Layout osservato nel browser a 1280 px e 390 px; nessun overflow orizzontale.
@@ -15,3 +15,6 @@
 
 - Correzioni finali: indirizzo Via Ciossa 5, 6806 Sigirino e Google Maps; otto foto della storia; foto e didascalie delle feste confrontate con DEF04.
 - Verifica visiva: foto delle prese senza bande bianche, fotografie delle feste caricate, note finali e numeri decorativi rimossi.
+- Versione tedesca completa verificata nel browser su desktop e mobile; selettore IT/DE presente in tutte le dieci pagine.
+- Navigazione interna tedesca, formulari, mappa e percorso culturale restano nella lingua selezionata.
+- Terminologia tecnica tedesca allineata al lessico ESV (tra cui Schwinghosen, Sägemehlring, Anschwingen, Ausschwingen, Ausstich e Schlussgang).

@@ -3,3 +3,4 @@ output/
 *.tar.gz
 *.zip
 node_modules/
+.playwright-cli/

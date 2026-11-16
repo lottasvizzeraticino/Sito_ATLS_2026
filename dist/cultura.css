@@ -8,6 +8,18 @@
 @media(max-width:390px){.culture-timeline article{grid-template-columns:1fr}.culture-timeline img{height:210px}.culture-basics{grid-template-columns:1fr}.culture-basics img{height:230px}.tech-steps figure img{height:145px}.culture-region-grid{grid-template-columns:1fr}.federal-fests article{grid-template-columns:1fr}.federal-fests img{height:230px}.festival-gallery{grid-template-columns:1fr}.festival-gallery .wide{grid-column:auto}.festival-gallery img{height:220px}.grip-steps article{grid-template-columns:120px 1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.chapter-nav,.site-header,.intro,.culture-final,footer{display:none}.culture-chapter[hidden]{display:block}.culture-chapter{break-before:page}.atls-wrap{width:100%;max-width:none}.chapter-source{break-inside:avoid}.technique-card{break-inside:avoid}body{font-size:11px}}
 
+/* Selettore lingua della pagina culturale. */
+.culture-header-actions{display:flex;align-items:center;gap:22px;margin-left:auto}
+.language-switcher{position:relative;z-index:40}
+.language-switcher summary{list-style:none;display:flex;align-items:center;justify-content:center;min-width:46px;height:38px;border:1px solid var(--line);background:var(--paper);color:var(--wine);font-size:12px;font-weight:700;letter-spacing:.08em;cursor:pointer}
+.language-switcher summary::-webkit-details-marker{display:none}
+.language-switcher summary::after{content:'⌄';font-size:11px;margin-left:6px;transform:translateY(-1px)}
+.language-switcher>div{position:absolute;top:calc(100% + 8px);right:0;min-width:155px;background:#fffaf2;border:1px solid var(--line);box-shadow:0 12px 30px #30271b20;padding:6px}
+.language-switcher a{display:block;padding:9px 11px;text-decoration:none;font-size:12px;white-space:nowrap}
+.language-switcher a:hover{background:var(--sand);color:var(--wine)}
+.language-switcher a[aria-current=page]{color:var(--wine);font-weight:700}
+@media(max-width:720px){.culture-header-actions{gap:12px}.back-link{display:none}.language-switcher summary{min-width:42px;height:34px}}
+
 .tech-steps figcaption{padding:12px 12px 16px;margin:0;font-size:13px;line-height:1.5}.tech-steps figure figcaption b{position:static;display:inline-block;width:23px;height:23px;line-height:23px;font-size:11px;margin-right:8px}.culture-principles p{font-size:14px;color:var(--muted)}.culture-principles b{margin-bottom:6px}
 
 /* A quieter, classic reading layout, in the colours of the original ATLS mark. */

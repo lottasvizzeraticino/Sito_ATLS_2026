@@ -1,6 +1,6 @@
 # Nuovo sito ATLS · novembre 2026
 
-Sito italiano responsive in HTML, CSS e JavaScript, con immagini ATLS ottimizzate e percorso culturale in sei capitoli.
+Sito bilingue italiano/tedesco responsive in HTML, CSS e JavaScript, con selettore lingua nell’intestazione, immagini ATLS ottimizzate e percorso culturale in sei capitoli.
 
 ## Anteprima
 
@@ -20,6 +20,7 @@ Se il servizio email non è configurato, il sito mostra l’errore e propone il 
 
 - Per OneDrive: inserire l’URL di condivisione della cartella in `documentsUrl` in `dist/config.js`. Fino ad allora il collegamento Archivio apre l’archivio ufficiale esistente.
 - Contenuti, statistiche, comitato, partner: `dist/index.html`.
+- Versione tedesca completa: `dist/index-de.html`, `dist/cultura-de.html`, `dist/iscrizione-de.html`, `dist/evento-de.html` e `dist/privacy-de.html`.
 - Aggiungere partner duplicando un elemento `.partner-logo`, con logo, nome, descrizione e URL reali; aggiornare il conteggio in Chi siamo.
 - Formulari: `build-forms.py` genera `dist/iscrizione.html` e `dist/evento.html`.
 - Cultura: `dist/cultura.html` e `dist/cultura.css`.
@@ -36,6 +37,7 @@ Se il servizio email non è configurato, il sito mostra l’errore e propone il 
 - Formulario originale nella cartella membri: campi anagrafici, tipo adesione e conferma.
 - Pannelli culturali: PDF finale DEF04 della consegna grafica; storia ticinese separata dai sei capitoli.
 - Foto Ämmeten: archivio 2026; ritratti e altre immagini dal materiale ATLS.
+- Terminologia tedesca: regolamenti e pubblicazioni ufficiali ESV, con il lessico tradizionale dello Schwingen.
 
 ## Cosa manca per l’esercizio sul dominio
 
